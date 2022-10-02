@@ -1157,7 +1157,7 @@ textarea {
 }
 .make-order {
   background: linear-gradient(180deg, rgba(255, 236, 236, 0.62) 0%, rgba(255, 236, 236, 0) 16.26%);
-  max-width: 1440px;
+  width: 1440px;
   height: 1282px;
   margin: 0 auto;
 }
