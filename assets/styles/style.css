@@ -1353,7 +1353,7 @@ textarea {
   background-image: url("/assets/images/Background_1-block.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* padding-top: -80px; */
+  padding-top: -80px;
   margin: 0 auto;
 }
 
@@ -1387,7 +1387,7 @@ textarea {
     width: 768px;
     height: 520px;
     background-image: url("/assets/images/Background_1-block_tablet.png");
-    /* padding-top: -50px; */
+    padding-top: -50px;
   }
   .main-section__title-main {
     width: 351px;
@@ -1677,7 +1677,7 @@ textarea {
   flex-direction: column;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1339px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .lookbook-section {
     background-image: url("/assets/images/Background_9-block_tablet.png");
     width: 768px;
@@ -1715,7 +1715,7 @@ textarea {
   }
   .lookbook-section__present-block {
     border: 4px solid #FAACA8;
-    gap: 7px;
+    gap: 13px;
     width: 370px;
     height: 130px;
     margin-top: 20px;
@@ -1738,8 +1738,8 @@ textarea {
     width: 265px;
   }
   .lookbook-section__button {
-    margin-top: 32px;
-    width: 405px;
+    margin: 32px auto 0px;
+    width: 395px;
   }
   .present-block {
     display: flex;
@@ -2979,7 +2979,7 @@ textarea {
   }
   .inspiration-section__text {
     font-size: 14px;
-    width: 440px;
+    width: 446px;
     height: 70px;
   }
 }
@@ -3022,7 +3022,7 @@ textarea {
   }
   .present-section__text {
     font-size: 14px;
-    width: 570px;
+    width: 577px;
     height: 100px;
   }
 }
