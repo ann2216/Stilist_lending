@@ -10,10 +10,9 @@
   margin: 0 auto;
 }
 .main-section__title-main {
-  font-family: "Montserrat", sans-serif;
-  src: url "./assets/fonts/Montserrat-Black.ttf";
+  font-weight: 900;
   font-style: normal;
-  align-self: left;
+  align-self: flex-start;
   width: 768px;
   height: 320px;
   margin-left: 90px;
@@ -21,7 +20,7 @@
   // margin-top: 116px;
 }
 .main-section__subtitle-main {
-  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   font-style: normal;
   width: 550px;
   height: 100px;
@@ -41,7 +40,7 @@
   .main-section {
     width: 768px;
     height: 520px;
-    background-image: url("/assets/images/Background_1-block_tablet.png");
+    background-image: url(../../images/Background_1-block_tablet.png);
     padding-top: -50px;
   }
   .main-section__title-main {
@@ -67,26 +66,26 @@
   .main-section {
     width: 360px;
     height: 800px;
-    background-image: url("/assets/images/Background_1-block_mobile.png");
+    background-image: url(../../images/Background_1-block_mobile.png);
     // padding-top: -80px;
   }
   .main-section__title-main {
     width: 240px;
     height: 150px;
     margin-left: 45px;
-    margin-top: 195px;
+    margin-top: 106px;
     // margin-top: 116px;
   }
   .main-section__subtitle-main {
     width: 165px;
     height: 103px;
     margin-left: 45px;
-    margin-top: 41px;
+    margin-top: 31px;
   }
   .main-section__button {
     width: 290px;
     // height: 115px;
     margin-left: 35px;
-    margin-top: 188px;
+    margin-top: 201px;
   }
 }

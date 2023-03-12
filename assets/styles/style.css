@@ -822,7 +822,7 @@ textarea {
     margin: 0 auto;
     overflow: auto;
     transition: all 0.3s ease 0s;
-    background-color: #9b89ff;
+    background-color: #E9EBF6;
     padding: 120px 0px 0px 0px;
   }
   .header__menu.active {
@@ -839,24 +839,24 @@ textarea {
     margin-right: 0;
   }
   .header__link {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 @font-face {
-  font-family: "Montserrat", sans-serif;
-  src: url "./assets/fonts/Montserrat-Medium.ttf";
+  font-family: "Montserrat";
+  src: url(/assets/fonts/Montserrat-Medium.ttf);
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat", sans-serif;
-  src: url "./assets/fonts/Montserrat-ExtraBold.ttf";
+  font-family: "Montserrat";
+  src: url(/assets/fonts/Montserrat-ExtraBold.ttf);
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
-  font-family: "Montserrat", sans-serif;
-  src: url "./assets/fonts/Montserrat-Black.ttf";
+  font-family: "Montserrat";
+  src: url(/assets/fonts/Montserrat-Black.ttf);
   font-weight: 900;
   font-style: normal;
 }
@@ -948,8 +948,8 @@ textarea {
   grid-template-columns: repeat(2, 590px);
   grid-template-rows: repeat(2, 1fr);
   justify-content: center;
-  column-gap: 30px;
-  raw-gap: 20px;
+  column-gap: 78px;
+  row-gap: 20px;
   width: 1240px;
   height: 580px;
   margin: 110px auto 0px;
@@ -999,7 +999,7 @@ textarea {
     grid-template-columns: repeat(2, 310px);
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
-    column-gap: 15px;
+    column-gap: 50px;
     row-gap: 10px;
     width: 640px;
     height: 330px;
@@ -1157,7 +1157,7 @@ textarea {
 }
 .make-order {
   background: linear-gradient(180deg, rgba(255, 236, 236, 0.62) 0%, rgba(255, 236, 236, 0) 16.26%);
-  max-width: 1440px;
+  width: 1440px;
   height: 1282px;
   margin: 0 auto;
 }
@@ -1350,7 +1350,7 @@ textarea {
   flex-direction: column;
   width: 1440px;
   height: 975px;
-  background-image: url("/assets/images/Background_1-block2.png");
+  background-image: url("/assets/images/Background_1-block.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: -80px;
@@ -1358,10 +1358,9 @@ textarea {
 }
 
 .main-section__title-main {
-  font-family: "Montserrat", sans-serif;
-  src: url "./assets/fonts/Montserrat-Black.ttf";
+  font-weight: 900;
   font-style: normal;
-  align-self: left;
+  align-self: flex-start;
   width: 768px;
   height: 320px;
   margin-left: 90px;
@@ -1369,7 +1368,7 @@ textarea {
 }
 
 .main-section__subtitle-main {
-  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   font-style: normal;
   width: 550px;
   height: 100px;
@@ -1411,25 +1410,25 @@ textarea {
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .main-section {
     width: 360px;
-    height: 800px;
-    background-image: url("/assets/images/Background_1-block_mobile.png");
+    height: 687px;
+    background-image: url("/assets/images/Background_1-block_mobile_2.png");
   }
   .main-section__title-main {
     width: 240px;
     height: 150px;
     margin-left: 45px;
-    margin-top: 195px;
+    margin-top: 106px;
   }
   .main-section__subtitle-main {
     width: 165px;
     height: 103px;
     margin-left: 45px;
-    margin-top: 41px;
+    margin-top: 31px;
   }
   .main-section__button {
     width: 290px;
     margin-left: 35px;
-    margin-top: 188px;
+    margin-top: 201px;
   }
 }
 .reviews-section {
@@ -1678,7 +1677,7 @@ textarea {
   flex-direction: column;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1339px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .lookbook-section {
     background-image: url("/assets/images/Background_9-block_tablet.png");
     width: 768px;
@@ -1716,7 +1715,7 @@ textarea {
   }
   .lookbook-section__present-block {
     border: 4px solid #FAACA8;
-    gap: 7px;
+    gap: 13px;
     width: 370px;
     height: 130px;
     margin-top: 20px;
@@ -1724,7 +1723,6 @@ textarea {
   .lookbook-section__subtitle {
     margin: 0 auto;
     margin-top: 18px;
-    margin-bottom: 10px;
   }
   .lookbook-section__point_violet {
     width: 15px;
@@ -1739,8 +1737,8 @@ textarea {
     width: 265px;
   }
   .lookbook-section__button {
-    margin-top: 32px;
-    width: 405px;
+    margin: 32px auto 0px;
+    width: 395px;
   }
   .present-block {
     display: flex;
@@ -1782,7 +1780,7 @@ textarea {
     border: 4px solid #FAACA8;
     gap: 13px;
     width: 270px;
-    height: 195px;
+    height: 180px;
   }
   .lookbook-section__subtitle {
     margin: 23px auto 0;
@@ -1895,9 +1893,9 @@ textarea {
     height: 973px;
   }
   .advantages__title {
-    width: 256px;
+    width: 268px;
     height: 88px;
-    padding: 53px 52px 0 52px;
+    padding: 53px 20px 0 20px;
   }
   .advantages__wrap {
     display: flex;
@@ -1983,15 +1981,16 @@ textarea {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .method-section {
     width: 768px;
-    height: 620px;
+    height: 644px;
   }
   .method-section__wrapper_left {
     width: 288px;
     height: 620px;
   }
   .method-section__img {
-    width: 174px;
-    height: 431px;
+    width: 184px;
+    height: 456px;
+    margin-top: 65px;
   }
   .method-section__wrapper_right {
     width: 420px;
@@ -2246,7 +2245,7 @@ textarea {
     border: 4px solid #FAACA8;
     gap: 13px;
     width: 270px;
-    height: 195px;
+    height: 180px;
     margin-top: 39px;
     margin: 0 auto;
   }
@@ -2466,16 +2465,16 @@ textarea {
     font-size: 11px;
     line-height: 180%;
     letter-spacing: 0.06em;
-    width: 212pxpx;
+    width: 212px;
     height: 52px;
   }
   .price__text-money {
     color: #5200ff;
     font-weight: 900;
-    font-size: 13px;
+    font-size: 18px;
     letter-spacing: 0.06em;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 4px;
     margin-bottom: 20px;
   }
   .price__subtitle {
@@ -2483,6 +2482,7 @@ textarea {
     align-self: center;
     margin-top: 19px;
     line-height: 180%;
+    width: 248px;
   }
   .price__point {
     width: 21px;
@@ -2888,7 +2888,7 @@ textarea {
   .fits-section__content {
     width: 504px;
     height: 370px;
-    margin: 0 auto 30px;
+    margin: 30px auto 30px;
   }
   .fits-section__title {
     align-self: center;
@@ -2928,7 +2928,7 @@ textarea {
     margin: 0 auto 0px;
   }
   .fits-section__title {
-    padding-top: 66px;
+    padding-top: 85px;
     padding-bottom: 46px;
   }
   .fits-section__row {
@@ -2978,7 +2978,7 @@ textarea {
   }
   .inspiration-section__text {
     font-size: 14px;
-    width: 440px;
+    width: 446px;
     height: 70px;
   }
 }
@@ -3021,7 +3021,7 @@ textarea {
   }
   .present-section__text {
     font-size: 14px;
-    width: 570px;
+    width: 577px;
     height: 100px;
   }
 }
@@ -3095,6 +3095,10 @@ textarea {
 }
 .btn-consult {
   padding: 2.5em 0.03em;
+}
+
+.btn-consult {
+  padding: 1.6em 0.3em;
 }
 
 .btn-main {
