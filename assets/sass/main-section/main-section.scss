@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 1440px;
   height: 975px;
-  background-image: url("/assets/images/Background_1-block2.png");
+  background-image: url(../../images/Background_1-block2.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: -80px;
@@ -63,9 +63,8 @@
   }
 }
 
-@media screen and ( min-width: 360px ) and ( max-width: 767px ) {
+@media screen and (min-width: 360px) and (max-width: 767px) {
   .main-section {
-    
     width: 360px;
     height: 800px;
     background-image: url("/assets/images/Background_1-block_mobile.png");
@@ -79,7 +78,6 @@
     // margin-top: 116px;
   }
   .main-section__subtitle-main {
-    
     width: 165px;
     height: 103px;
     margin-left: 45px;
